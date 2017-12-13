@@ -1,0 +1,48 @@
+html,
+body {
+   height: 100%;
+}
+
+#cover {
+   background: #222 url("../images/cover.jpeg") center center no-repeat;
+   -webkit-background-size: cover;
+   background-size: cover;
+   color: #fff;
+   
+}
+#cover .container{
+   height: 100vh;
+}
+
+img {
+   max-width: 100%;
+}
+
+#about-me {
+   background: url("../images/person.jpeg")center center no-repeat;
+   -webkit-background-size: cover;
+   background-size: cover;
+}
+
+.about-text{
+   background: rgba(0,0,0,0.7);
+   color:#fff;
+}
+
+.form-control{
+   min-width: 200px;
+   font-size: 1rem;
+}
+#myFooter{
+   background: #222;
+   color: #fff;
+   padding: 2rem;
+}
+nav img{
+   height: 70px;
+   width: 70px;
+   border-radius: 50%;
+   border: 2px solid #222;
+}
+
+
